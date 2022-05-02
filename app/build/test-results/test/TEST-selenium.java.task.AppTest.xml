@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="selenium.java.task.AppTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-05-02T02:14:07" hostname="Tejaswinis-MacBook-Pro.local" time="0.868">
+  <properties/>
+  <testcase name="verifyFormWithCorrectValues[0](Helena, Parker, Male, 1, 05/01/2022, Manual Tester, RC, Europe, 1, 1, app/src/test/resources/auto.png)" classname="selenium.java.task.AppTest" time="0.868">
+    <failure message="org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : app/src/test/resources/auto.png&#10;  (Session info: chrome=101.0.4951.41)&#10;Build info: version: '4.1.4', revision: '535d840ee2'&#10;System info: host: 'Tejaswinis-MacBook-Pro.local', ip: '2607:fea8:fca0:7f15:0:0:0:4699%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.3.1', java.version: '17.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [047b90eeec70200afff5de508fc49927, sendKeysToElement {id=92908d67-2529-4525-ac53-17dc948d079f, value=[Ljava.lang.CharSequence;@7ce4de34}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.41, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/5m/stnfvq_n7lq...}, goog:chromeOptions: {debuggerAddress: localhost:58943}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:58943/devtoo..., se:cdpVersion: 101.0.4951.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on MAC (047b90eeec70200afff5de508fc49927)] -&gt; xpath: //input[@name='photo']]&#10;Session ID: 047b90eeec70200afff5de508fc49927" type="org.openqa.selenium.InvalidArgumentException">org.openqa.selenium.InvalidArgumentException: invalid argument: File not found : app/src/test/resources/auto.png
+  (Session info: chrome=101.0.4951.41)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'Tejaswinis-MacBook-Pro.local', ip: '2607:fea8:fca0:7f15:0:0:0:4699%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.3.1', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [047b90eeec70200afff5de508fc49927, sendKeysToElement {id=92908d67-2529-4525-ac53-17dc948d079f, value=[Ljava.lang.CharSequence;@7ce4de34}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.41, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/5m/stnfvq_n7lq...}, goog:chromeOptions: {debuggerAddress: localhost:58943}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:58943/devtoo..., se:cdpVersion: 101.0.4951.41, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (047b90eeec70200afff5de508fc49927)] -&gt; xpath: //input[@name='photo']]
+Session ID: 047b90eeec70200afff5de508fc49927
+	at java.base@17.0.2/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base@17.0.2/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base@17.0.2/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base@17.0.2/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base@17.0.2/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at app//org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at app//org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at app//org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at app//org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at app//org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at app//org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:107)
+	at app//selenium.java.task.App.uploadImage(App.java:62)
+	at app//selenium.java.task.AppTest.verifyFormWithCorrectValues(AppTest.java:66)
+	at java.base@17.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.2/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.2/java.lang.reflect.Method.invoke(Method.java:568)
+	at app//org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at app//org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at app//org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at app//org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at app//org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at app//org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at app//org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at app//org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base@17.0.2/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at app//org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at app//org.testng.TestRunner.run(TestRunner.java:596)
+	at app//org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at app//org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at app//org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at app//org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at app//org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at app//org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at app//org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at app//org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at app//org.testng.TestNG.runSuites(TestNG.java:1063)
+	at app//org.testng.TestNG.run(TestNG.java:1031)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at java.base@17.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@17.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base@17.0.2/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@17.0.2/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:133)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:71)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 50232
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1651457636.174][WARNING]: This version of ChromeDriver has not been tested with Chrome version 101.
+May 01, 2022 10:13:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+May 01, 2022 10:13:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found exact CDP implementation for version 101
+]]></system-err>
+</testsuite>
